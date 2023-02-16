@@ -266,7 +266,71 @@ def dump_markdown(data, fname):
                     f.write(i["content"].replace("\n","<br />"))
                 f.write("\n")
 
-
+def dump_lua(data, fname):
+    # okay it's getting messy
+    def text_escape(n):
+        return n.replace("\\","\\\\").replace("\n","\\n").replace("\t","\\t").replace("\"","\\\"")
+    
+    def entry_to_lua(e):
+        t="    {"
+        t+='\"'+text_escape(e["title"])+'\",\n'
+        t+="        "
+        t+='\"'+text_escape(e["metadata"]["search-terms"])+'\",\n'
+        t+="        "
+        t+='\"'+text_escape(e["metadata"]["category"])+'\",\n'
+        t+="        "
+        t+='\"'+text_escape(e["content"])+'\"'
+        if "url" in e["metadata"]:
+            t+=",\n"
+            t+="        "
+            t+='\"'+text_escape(e["metadata"]["url"])+'\"'
+        t+="\n    }"
+        return t
+    already_added_platform_restriction_ids=[]
+    
+    t="return {\n"
+    for i in data:
+        if i["type"]!="entry":
+            continue
+        if i["metadata"].get("id") in already_added_platform_restriction_ids:
+            continue
+        if "platform-restriction" in i["metadata"] and i["metadata"]["platform-restriction"]!="none":
+            if "id" not in i["metadata"]:
+                # lacks an ID, cannot do platform restriction
+                t+=entry_to_lua(i)
+                t+=",\n"
+                continue
+            apple=None
+            nonapple=None
+            for j in data:
+                if "id" not in j["metadata"]:
+                    continue
+                if j["metadata"]["id"]!=i["metadata"]["id"]:
+                    continue
+                if "platform-restriction" in j["metadata"]:
+                    if j["metadata"]["platform-restriction"]=="apple":
+                        apple=j
+                    if j["metadata"]["platform-restriction"]=="non-apple":
+                        nonapple=j
+            if apple==None or nonapple==None:
+                # there isn't a pair of platform-restricted duplicates
+                # add as normal
+                t+=entry_to_lua(i)
+                t+=",\n"
+            else:
+                t+="FNNS and "
+                t+=entry_to_lua(apple)
+                t+=" or "
+                t+=entry_to_lua(nonapple)
+                t+=",\n"
+                already_added_platform_restriction_ids.append(i["metadata"]["id"])
+            continue
+        t+=entry_to_lua(i)
+        t+=",\n"
+    t+="}"
+    with open(fname, "w", encoding="utf-8") as f:
+        f.write(t)
+            
 
 
 if __name__=="__main__":
@@ -283,7 +347,7 @@ Flags:
 --read-lua-json  : assume infile is in-game representation JSON.
 --read-md        : assume infile is markdown.
 --dump-json      : output verbose representation JSON.
-(not implemented): output Lua script.
+--dump-lua       : output Lua script.
 --dump-md        : output markdown.
 """
     
@@ -356,7 +420,6 @@ Flags:
     if outfile_format=="json":
         dump_json(data, outfile)
     if outfile_format=="lua":
-        pass
-        #dump_lua(data, outfile)
+        dump_lua(data, outfile)
     if outfile_format=="md":
         dump_markdown(data, outfile)
