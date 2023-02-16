@@ -18,7 +18,8 @@ Anything above the first level-2 heading does nothing
 ```
 Unordered list directly following the heading defines metadata
 After the list ends, the following text until the next heading (either level 1 or 2) are the content of the entry
-Code block is optional, useful for bypassing Markdown syntax
+Code block is optional, useful for bypassing Markdown syntax.
+(When outputting to md, it's always code-block'd.)
 
 headings HAVE TO BE `# text`, not `# text #` nor `text\n====`.
 List can use `-`, `+` or `*`.
@@ -78,10 +79,6 @@ id:
     Same entry across languages should have identical ID (cross-language reference/comparison)
     Different versions of the same entry should have identical ID (platform restriction)
     Completely different entries should have different ID
-render-as-code-block:
-    alias: display-codeblock, display-code-block, render-as-codeblock
-    boolean value, whether this entry is / should be in code block in markdown format
-    auto-detect when reading markdown; assumed to be false when generating markdown
 platform-restriction:
     one of the following:
     none, apple, non-apple
@@ -93,10 +90,7 @@ metadata_aliases={
     "search-term":"search-terms",
     "search":"search-terms",
     "web":"url",
-    "website":"url",
-    "display-code-block":"render-as-code-block",
-    "display-codeblock":"render-as-code-block",
-    "render-as-codeblock":"render-as-code-block",
+    "website":"url"
 }
 
 
