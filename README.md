@@ -169,3 +169,7 @@ In Markdown and Verbose JSON representations, Unicode Private Use Area character
 When reading in-game representation JSON, literal PUA characters will be converted to this representation.
 
 When dumping to Lua, named PUA characters would be converted to Lua string concatenation (`..CHAR.zChan.normal..`), and code point ones would be converted to literal characters.
+
+### `[Tt]etris` and `[Pp]atreon`
+
+The words "Tetris" and "Patreon" are not censored by this script.
