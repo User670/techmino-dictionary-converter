@@ -51,7 +51,7 @@ Having text under a level-2 heading but not in a list or in a code block, or hav
 
 Headings have to be `# text` format, not `# text #` nor `text\n====`.
 
-The three backticks for a code block must be on their own line.
+Code blocks have to use three backticks, not indent 4 spaces. The three backticks for a code block must be on their own line.
 
 Lists can use `-`, `+` or `*`.
 
