@@ -1,0 +1,19 @@
+name: Generate JSON and Lua from Markdown
+on: [push]
+jobs:
+  Generate_files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: python3 tool.py ./markdown/dict_zh.md dict_zh.json
+      - run: python3 tool.py ./markdown/dict_zh.md dict_zh.lua
+      - run: python3 tool.py ./markdown/dict_en.md dict_en.json
+      - run: python3 tool.py ./markdown/dict_en.md dict_en.lua
+      - run: python3 tool.py ./markdown/dict_ja.md dict_ja.json
+      - run: python3 tool.py ./markdown/dict_ja.md dict_ja.lua
+      - name: upload artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          path: dict_*.*
+      
