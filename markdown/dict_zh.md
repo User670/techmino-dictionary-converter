@@ -158,6 +158,8 @@ Techmino的官网！
 （英文）一个方块版面编辑器，添加了对触屏的控制，可以用于分享定式，PC解法等，用处很多。
 ```
 
+# 相关网页/组织
+
 ## GitHub仓库
 - search-terms: 源代码 源码 github git sourcecode yuandaima src
 - category: org
@@ -187,6 +189,8 @@ TO-S的添加方法、说明等关于茶服的一切
 ## 赞助1
 - search-terms: support weixin vx zhifubao zfb zanzhu daqian
 - category: org
+- id: support-1
+- platform-restriction: non-apple
 
 ```
 vx/zfb-控制台-support
@@ -196,6 +200,8 @@ vx/zfb-控制台-support
 - search-terms: support aifadian afdian zanzhu daqian
 - category: org
 - url: https://afdian.net/@MrZ_26
+- - id: support-2
+- platform-restriction: non-apple
 
 ```
 Afdian
@@ -205,10 +211,44 @@ Afdian
 - search-terms: support zanzhu daqian
 - category: org
 - url: https://www.patreon.com/techmino
+- id: support-3
+- platform-restriction: non-apple
 
 ```
 Patreon
 ```
+
+## 赞助1
+- search-terms: support weixin vx zhifubao zfb zanzhu daqian
+- category: org
+- id: support-1
+- platform-restriction: apple
+
+```
+vx/zfb-控制台-support
+```
+
+## 赞助2
+- search-terms: support aifadian afdian zanzhu daqian
+- category: org
+- id: support-2
+- platform-restriction: apple
+
+```
+Afdian
+```
+
+## 赞助3
+- search-terms: support zanzhu daqian
+- category: org
+- id: support-3
+- platform-restriction: apple
+
+```
+Patreon
+```
+
+# 游戏（题库）
 
 ## TTT
 - search-terms: 教程 trainer tres bien
@@ -254,6 +294,8 @@ Patreon
 ```
 全称Tetris Puzzle O。由TCV100制作的题库网站，内含nazo的部分题库。
 ```
+
+# 游戏（网页）
 
 ## 注[1]
 - search-terms: 备注 notice
@@ -383,6 +425,8 @@ tetris.com官网上的俄罗斯方块，限时1分钟挖掘，有重力机制。
 tetris.com官网上的俄罗斯方块，在马拉松基础上添加了技能，场地上会随机冒出技能方块，消除后会得到各种各样或好或坏的技能。
 ```
 
+# 游戏（跨平台）
+
 ## Techmino
 - search-terms: 铁壳米诺 方块研究所 tieke
 - category: game
@@ -418,6 +462,8 @@ tetris.com官网上的俄罗斯方块，在马拉松基础上添加了技能，�
 Windows/Android | 单机
 块圈玩家自制方块，正在开发中，有一个原创旋转系统。
 ```
+
+# 游戏（街机/类街机）
 
 ## TGM
 - search-terms: 俄罗斯方块大师 tetrisgrandmaster
@@ -463,6 +509,8 @@ Windows | 单机
 Windows | 单机
 简称Tex，包含TGM的所有模式，可以用来练习TGM，但World规则不完全一样（如软降到底无锁延，踢墙表有细节不同等）。
 ```
+
+# 游戏（其他）
 
 ## Tetris Effect
 - search-terms: 效应 tec tetriseffectconnected xiaoyinglianjie
@@ -626,6 +674,8 @@ Windows | 多人
 腾讯游戏大厅的方块，场地12列，打字的 DAS 和 ARR，1 Next无 Hold，攻击途径只有消4打3、 消3打2，垃圾行为国际象棋棋盘式，几乎不可能挖掘。
 ```
 
+# 术语（缩写）
+
 ## LPM
 - search-terms: 速度 sudu
 - category: term
@@ -735,6 +785,8 @@ Attack Per Line
 攻击每行，也叫效率，体现玩家攻击的行利用率。例如消四和T旋的效率就比消二和消三高。
 ```
 
+# 术语（消除名）
+
 ## Single
 - search-terms: 1 xiaoyi
 - category: term
@@ -794,6 +846,8 @@ Perfect Clear（也叫All Clear，全消，或全清）。
 Half-PC
 PC（全消）的外延，“下方有剩余方块” 的全消（特别地，如果只消1行则必须不剩余玩家放置的方块），能打出一些攻击和防御（Techmino限定）。
 ```
+
+# 术语（旋转相关）
 
 ## Spin
 - search-terms: 转 xuanzhuan zuandong
@@ -1027,6 +1081,8 @@ T-ex原创旋转系统，引入了 “按住方向键换一套踢墙表” 的�
 
 其他旋转系统无论踢墙表怎么设计，块处在某个位置时旋转后最终只能按固定顺序测试，这导致不同的踢墙是竞争的，若存在两个可能想去的位置就只能二选一，XRS解决了这个问题。
 ```
+
+# 术语（其他）
 
 ## B2B
 - search-terms: 大满贯 btb backtoback
@@ -1697,6 +1753,7 @@ PC攻击+6（该部分攻击AOE直接打出到所有对手，不抵消缓冲槽�
 ## C2序列
 - search-terms: seq
 - category: term
+- _comment: 原Lua文件中包含此注释："Discovered by zxc"
 
 ```
 （七个块初始权重设为0）
@@ -1827,6 +1884,8 @@ TOP、TE等游戏比较明显
 一个AI的名字（就跟AlphaGo一样）
 由研究群群友奏之章开发，重新调参后在各个游戏平台上的表现都很不错。
 ```
+
+# 定式
 
 ## 开局定式(Setup)
 - search-terms: opening kaijudingshi opener
@@ -2023,6 +2082,8 @@ Grace System，大约有88.57%概率能做到PC的定式，Techmino中的PC练�
 更多内容见Hard Drop Wiki。
 ```
 
+# 形状
+
 ## 中局定式
 - search-terms: setup dingshi
 - category: pattern
@@ -2154,6 +2215,8 @@ STMB cave
 研究群群友加加编写的一份连续PC教程
 ```
 
+# 存档管理
+
 ## 控制台
 - search-terms: console cmd commamd minglinghang kongzhitai
 - category: command
@@ -2228,6 +2291,8 @@ STMB cave
 前往控制台输入 “rm -s cache” 并回车。
 立即生效。
 ```
+
+# 英文
 
 ## SFX
 - search-terms: 
