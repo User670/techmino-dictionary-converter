@@ -1,7 +1,7 @@
-name: GitHub Actions Demo
+name: Generate JSON and Lua from Markdown
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Generate_files:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
