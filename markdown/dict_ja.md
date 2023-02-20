@@ -240,6 +240,8 @@ Newjade氏によってテト譜をスマホ等でより直感的に使えるよ�
 日本ではテンプレ制作、それ以外ではパフェ関連に使われることが多い
 ```
 
+# Webpages / Organizations
+
 ## Github Repository
 - search-terms: githubrepository sourcecode src ソース リポジトリ りぽじとり github
 - category: org
@@ -281,6 +283,8 @@ Techminoの公式Githubです
 ## サポート1
 - search-terms: support サポート 寄付 wechat vx weixin alipay zfb zhifubao
 - category: org
+- id: support-1
+- platform-restriction: non-apple
 
 ```
 WechatやAlipayを使ってTechminoに寄付してくださる場合は、ゲームメイン画面の「TECHMINO」のTを連打→コンソール画面で「support」と入力→QRコードを読み取って寄付してください
@@ -290,6 +294,8 @@ WechatやAlipayを使ってTechminoに寄付してくださる場合は、ゲー
 - search-terms: support サポート 寄付 afdian aidadian
 - category: org
 - url: https://afdian.net/@MrZ_26
+- id: support-2
+- platform-restriction: non-apple
 
 ```
 Aifadianを使ってTechminoに寄付してくださる場合は、地球儀ボタンからURLを開いてください
@@ -300,11 +306,45 @@ Aifadianの場合、寄付金額から6%の手数料がかかります
 - search-terms: support サポート 寄付 patreon patreon
 - category: org
 - url: https://www.patreon.com/techmino
+- id: support-3
+- platform-restriction: non-apple
 
 ```
 Patreonを使ってTechminoに寄付してくださる場合は、地球儀ボタンからURLを開いてください
 Pareonの場合、一定額以上の寄付に対して手数料がかかります
 ```
+
+## サポート1
+- search-terms: support サポート 寄付 wechat vx weixin alipay zfb zhifubao
+- category: org
+- id: support-1
+- platform-restriction: apple
+
+```
+こちらの内容はプラットフォームの関係により非表示にされています\n詳しくはTechminoのdiscordサーバーにて聞いてください
+```
+
+## サポート2
+- search-terms: support サポート 寄付 afdian aidadian
+- category: org
+- id: support-2
+- platform-restriction: apple
+
+```
+こちらの内容はプラットフォームの関係により非表示にされています\n詳しくはTechminoのdiscordサーバーにて聞いてください
+```
+
+## サポート3
+- search-terms: support サポート 寄付 patreon patreon
+- category: org
+- id: support-3
+- platform-restriction: apple
+
+```
+こちらの内容はプラットフォームの関係により非表示にされています\n詳しくはTechminoのdiscordサーバーにて聞いてください
+```
+
+# Games
 
 ## テトリス トレーナー トレビアン
 - search-terms: tetris trainer tres bien 上達 練習 テトリス トレーナー トレビアン
@@ -849,6 +889,8 @@ Tencent Game Centerが開発した公式テトリス
 3line消し(火力:2)とテトリス(火力:3)でしか攻撃を送れない
 下穴が市松模様のようになっているので掘ることはほぼ不可能
 ```
+
+# Terms
 
 ## 翻訳者からのメッセージ 2
 - search-terms: 
@@ -2317,6 +2359,8 @@ misaminoを元に開発された
 多様なモードを搭載している
 ```
 
+
+# Setups
 ## Openers(開幕テンプレ)
 - search-terms: setup openers 開幕 テンプレ
 - category: setup
@@ -2529,6 +2573,8 @@ TDパフェ系統のテンプレで最初に作られた開幕TDテンプレ
 詳しい情報は、地球儀ボタンをクリックしてHarddrop wikiにあります!
 ```
 
+# Pattern
+
 ## Mid-game Setups(中盤テンプレ)
 - search-terms: midgamesetups 中盤
 - category: pattern
@@ -2685,6 +2731,8 @@ four.lolに1～7回目のパフェについて詳しく知れます
 ただし情報量の多さ等から自分である程度吟味する必要がある
 ```
 
+# Savedata managing
+
 ## Console(コンソール)
 - search-terms: cmd commamd minglinghang kongzhitai terminal コンソール ターミナル コンソール console
 - category: command
@@ -2762,6 +2810,8 @@ Techminoにはデバッグや高度な機能を実行するためのコンソー
 コンソールに「rm -s cache」と入力し、Enterもしくはreturnを押すと即座に実行されます
 キャッシュを消します
 ```
+
+# English
 
 ## SFX
 - search-terms: soundeffects 効果音
