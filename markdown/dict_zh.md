@@ -180,7 +180,7 @@ Techmino的GitHub仓库地址，欢迎Star
 ## 茶服
 - search-terms: tos tea study chafu
 - category: org
-- url: http://teatube.ltd/tos
+- url: https://teatube.cn/tos/
 
 ```
 TO-S的添加方法、说明等关于茶服的一切
@@ -253,7 +253,7 @@ Patreon
 ## TTT
 - search-terms: 教程 trainer tres bien
 - category: game
-- url: http://teatube.ltd/ttt
+- url: https://teatube.cn/ttt/index.html
 
 ```
 全称Tetris Trainer Très-Bien (by こな)。现代方块特殊操作手把手教程（只能键盘操作）
@@ -265,7 +265,7 @@ Patreon
 ## TTPC
 - search-terms: pc教程
 - category: game
-- url: http://teatube.ltd/ttpc
+- url: https://teatube.cn/ttpc/
 
 ```
 全称TETRIS Perfect Clear Challenge (by chokotia)。SRS+Bag7方块游戏Perfect Clear Opener教程（只能键盘操作）。推荐完成了TTT的人学习（必须先学会SRS）
@@ -276,7 +276,7 @@ Patreon
 ## NAZO
 - search-terms: 题库
 - category: game
-- url: http://teatube.ltd/nazo
+- url: https://teatube.cn/nazo/
 
 ```
 各类SRS试题
@@ -468,7 +468,7 @@ Windows/Android | 单机
 ## TGM
 - search-terms: 俄罗斯方块大师 tetrisgrandmaster
 - category: game
-- url: http://teatube.ltd/TGMGUIDE/
+- url: https://teatube.cn/TGMGUIDE/
 
 ```
 Windows | 单机/本地双人

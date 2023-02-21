@@ -274,7 +274,7 @@ Techminoの公式Githubです
 ## Tetris OL Servers
 - search-terms: tetrisonline servers tos
 - category: org
-- url: http://teatube.ltd/tos
+- url: https://teatube.cn/tos/
 
 ```
 地球儀ボタンをクリックするとTeatube氏作成の中国のTetris Online Studyの情報にアクセスできます

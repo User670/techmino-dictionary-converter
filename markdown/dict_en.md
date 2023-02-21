@@ -198,7 +198,7 @@ Join the Tetris communities and talk with other players! You can join the Hard D
 ## Tetris OL Servers
 - search-terms: tetrisonline servers tos
 - category: org
-- url: http://teatube.ltd/tos
+- url: https://teatube.cn/tos/
 
 ```
 Google “Tetris Online Poland” for the Poland server.
@@ -285,18 +285,18 @@ The link below is the English version of the website, translated by User670 (Ori
 ## TTPC
 - search-terms: tetris perfect clear challenge
 - category: game
-- url: http://teatube.ltd/ttpc
+- url: https://teatube.cn/ttpc/ttpc/
 
 ```
 Tetris Perfect Clear Challenge (by chokotia). A tutorial on Perfect Clear opener using SRS and Bag-7 (with only keyboard support). Recommended for players who completed TTT and are familiar with SRS.
 
-Link in simplified Chinese, originally in Japanese.
+Link in English, originally in Japanese.
 ```
 
 ## NAZO
 - search-terms: nazo
 - category: game
-- url: http://teatube.ltd/nazo
+- url: https://teatube.cn/nazo/
 
 ```
 (ナゾ)
