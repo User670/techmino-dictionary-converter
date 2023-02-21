@@ -375,7 +375,7 @@ def dump_lua(data, fname):
             continue
         t+=entry_to_lua(i)
         t+=",\n"
-    t+="}"
+    t+="}\n"
     with open(fname, "w", encoding="utf-8") as f:
         f.write(t)
             
