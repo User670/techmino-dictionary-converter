@@ -534,6 +534,7 @@ TechminoのstackモードはASCからアイデアを得ています
 ## Tetris Friends
 - search-terms: tf tetrisfriends notrisfoes　テトリス てとふれ テトフレ のとりす ノトリス official 公式
 - category: game
+- url: https://notrisfoes.com
 
 ```
 ブラウザ | シングル/マルチプレイ
