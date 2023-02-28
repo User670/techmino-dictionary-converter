@@ -411,6 +411,7 @@ WWC for short. It has worldwide 1V1 battles, recorded battles (so the opponents 
 ## Tetris Friends
 - search-terms: tf tetrisfriends notrisfoes
 - category: game
+- url: https://notrisfoes.com
 
 ```
 Browser | Singleplayer/Multiplayer
